@@ -1,6 +1,6 @@
 'use client'
-// import { Link } from '@/src/navigation'
-import Link from 'next/link'
+import { Link } from '@/src/navigation'
+//import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import { FC } from 'react'
 import GithubIcon from '../../icons/github'
@@ -8,8 +8,8 @@ import LogoIcon from '../../icons/logo'
 import LangSwitcher from './LangSwitcher'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
-import React, {useEffect ,useState } from 'react'
-import { BsFacebook } from 'react-icons/bs' 
+import React, { useEffect, useState } from 'react'
+import { BsFacebook } from 'react-icons/bs'
 interface Props {
   locale: string
 }
@@ -25,43 +25,45 @@ export const Header: FC<Props> = ({ locale }) => {
     setIsOpen(false)
   }
 
-
-  const [isSticky, setIsSticky] = useState(false);
-  const [ishidefixed, setishidefixed] = useState(false);
+  const [isSticky, setIsSticky] = useState(false)
+  const [ishidefixed, setishidefixed] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
       console.log(window.scrollY)
-     if (window.scrollY > 500) { // ปรับค่าตามตำแหน่งที่ต้องการให้เปลี่ยนจาก fixed เป็น sticky
-       console.log(isSticky)
-        setIsSticky(true);
+      if (window.scrollY > 500) {
+        // ปรับค่าตามตำแหน่งที่ต้องการให้เปลี่ยนจาก fixed เป็น sticky
+        console.log(isSticky)
+        setIsSticky(true)
       } else {
         console.log(isSticky)
-        setIsSticky(false);
+        setIsSticky(false)
       }
 
-      if (window.scrollY > 100 && window.scrollY <= 200) { // ปรับค่าตามตำแหน่งที่ต้องการให้เปลี่ยนจาก fixed เป็น sticky
-        setishidefixed(true);
-        console.log("ishidefixed : ",ishidefixed)
-       }
-      else {
-        setishidefixed(false);
-        console.log("ishidefixed : ",ishidefixed)
+      if (window.scrollY > 100 && window.scrollY <= 200) {
+        // ปรับค่าตามตำแหน่งที่ต้องการให้เปลี่ยนจาก fixed เป็น sticky
+        setishidefixed(true)
+        console.log('ishidefixed : ', ishidefixed)
+      } else {
+        setishidefixed(false)
+        console.log('ishidefixed : ', ishidefixed)
       }
-    };
+    }
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
   return (
-    <div className={`${
+    <div
+      className={`${
         isSticky ? 'sticky top-0 bg-opacity-90' : 'fixed top-0 bg-opacity-100'
-      } z-50 w-full transition-all duration-500 ease-in-out transform ${
-        isSticky ? 'translate-y-0' : '-translate-y-2'  
-      }  ${ishidefixed?'opacity-0':''} `}>
+      } z-50 w-full transform transition-all duration-500 ease-in-out ${
+        isSticky ? 'translate-y-0' : '-translate-y-2'
+      }  ${ishidefixed ? 'opacity-0' : ''} `}
+    >
       {/* <Link lang={locale} href='/'>3
         <div className='flex flex-row items-center'>
           <div className='mb-2 h-14 w-14'>
@@ -163,6 +165,7 @@ export const Header: FC<Props> = ({ locale }) => {
               <Link lang={locale} href={`/portfolio`} onClick={handleCloseMenu}>
                 Portfolio
               </Link>
+              {/* <a href='/portfolio'>Portfolio</a> */}
             </li>
             <li>
               {' '}
@@ -172,18 +175,18 @@ export const Header: FC<Props> = ({ locale }) => {
             </li>
             <li>
               <a
-               onClick={() => {
-                window.open(
-                  'https://www.facebook.com/profile.php?id=100062997834650',
-                  '_blank',
-                  'noopener,noreferrer'
-                )
-              }}
+                onClick={() => {
+                  window.open(
+                    'https://www.facebook.com/profile.php?id=100062997834650',
+                    '_blank',
+                    'noopener,noreferrer'
+                  )
+                }}
               >
-                <BsFacebook size={25} color="#3b5998"/>
+                <BsFacebook size={25} color='#3b5998' />
               </a>
 
-{/* 
+              {/* 
               <button 
               onClick={() => {
                 window.open(
