@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "EXPERT PAINTER",
+        "body": "Call : 021 024 94072",
+        "imageUrl": "/images_slide/_1.webp",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      }, 
+      {
+        "id": 3,
+        "title": "EXPERT PAINTER",
+        "body": "Call : 021 024 94072",
+        "imageUrl": "/images_slide/_3.webp",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 4,
+        "title": "EXPERT PAINTER",
+        "body": "Call : 021 024 94072",
+        "imageUrl": "/images_slide/_4.webp",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },  
+      {
+        "id": 7,
+        "title": "EXPERT PAINTER",
+        "body": "Call : 021 024 94072",
+        "imageUrl": "/images_slide/_7.webp",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      }
+    ]
+  }
+}

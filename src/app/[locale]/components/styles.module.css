@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Reset */
+ 
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: #f8f8f8; /* Background color when scrolled */
+}
+
+.navbar-logo a {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links li {
+    position: relative;
+}
+
+.navbar-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #007bff; /* Hover color */
+}
+
+/* Dropdown Menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    min-width: 150px;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
