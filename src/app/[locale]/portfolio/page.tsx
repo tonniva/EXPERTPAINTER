@@ -28,6 +28,29 @@ export default function About() {
 
   return (
     <div className='py-20 text-center text-2xl'>
+      <section className='px-4 py-2'>
+        <h1 className='text-center text-5xl font-extrabold leading-tight'>
+          RENOVATION PAINTING
+        </h1>
+        <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
+          <video
+            className='h-screen w-full rounded-lg object-cover'
+            src='/videos/e0fa1ea7-2683-4dba-ade8-ec82409c3976.mp4'
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <video
+            className='h-screen w-full rounded-lg object-cover'
+            src='/videos/ffef1808-7145-4b30-8705-e6831f6e3fbd.mp4'
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
+      </section>
       <section>
         <Slider></Slider>
       </section>

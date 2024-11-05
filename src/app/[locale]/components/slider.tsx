@@ -31,7 +31,9 @@ export const Slider = () => {
 
   return (
     <>
-      <h1 className='text-center py-4'>Before-After</h1>
+      <h1 className='pt-2 text-center text-5xl font-extrabold leading-tight'>
+        Before-After
+      </h1>
       <div className='relative w-full' onMouseUp={handleMouseUp}>
         <div
           className='relative m-auto aspect-[70/45] w-full max-w-[700px] select-none overflow-hidden'
@@ -43,7 +45,7 @@ export const Slider = () => {
             fill
             draggable={false}
             priority
-            src='/images_port/1.1.jpg'
+            src='/images_port/1.1.webp'
           />
 
           <div
@@ -55,7 +57,7 @@ export const Slider = () => {
               priority
               draggable={false}
               alt=''
-              src='/images_port/1.jpg'
+              src='/images_port/1.webp'
             />
           </div>
           <div
@@ -77,7 +79,7 @@ export const Slider = () => {
             fill
             draggable={false}
             priority
-            src='/images_port/2.2.jpg'
+            src='/images_port/2.2.webp'
           />
 
           <div
@@ -89,7 +91,7 @@ export const Slider = () => {
               priority
               draggable={false}
               alt=''
-              src='/images_port/2.jpg'
+              src='/images_port/2.webp'
             />
           </div>
           <div
