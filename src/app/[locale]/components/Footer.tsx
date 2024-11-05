@@ -16,7 +16,7 @@ export const Footer = () => {
               alt='logo'
               width={200}
               height={200}
-              className='mx-auto rounded-lg bg-white object-contain sm:mx-0'
+              className='mx-auto rounded-lg  object-contain sm:mx-0'
             />
           </div>
           <div className='m-auto'>

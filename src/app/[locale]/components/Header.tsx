@@ -142,7 +142,7 @@ export const Header: FC<Props> = ({ locale }) => {
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
           </div>
           <div className='navbar-logo pl-3 pt-3'>
-            <a href='#'>
+            <a href='/'>
               <Image
                 src='/house_image_output.svg'
                 alt='logo'
