@@ -25,8 +25,7 @@ const ParallaxSection: React.FC = () => {
   }, [])
 
   return (
-    <div>  
-    
+    <div>   
           <section> 
         <div className='relative h-screen w-full overflow-hidden'>
           <video

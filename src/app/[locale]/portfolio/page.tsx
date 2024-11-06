@@ -28,12 +28,37 @@ export default function About() {
 
   return (
     <div className='py-20 text-center text-2xl'>
+   
+
       <section className='px-4 py-2'>
         <h1 className='text-center text-5xl font-extrabold leading-tight'>
           RENOVATION PAINTING
         </h1>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
-          <video
+
+        <div className="flex justify-center">
+      <iframe
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/AEhVtgUG7no?autoplay=1&mute=1"
+        title="YouTube video player" 
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+    <div className="flex justify-center">
+      <iframe
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/D6KJ7-0FmyM?autoplay=1&mute=1"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+          {/* <video
             className='h-screen w-full rounded-lg object-cover'
             src='/videos/e0fa1ea7-2683-4dba-ade8-ec82409c3976.mp4'
             autoPlay
@@ -48,7 +73,20 @@ export default function About() {
             loop
             muted
             playsInline
-          />
+          /> */}
+        </div>
+      </section>
+      <section>
+        <div className='flex justify-center'>
+          <iframe
+            width='100%'
+            height='500'
+            src='https://www.youtube.com/embed/ERHqIUCEg5w?autoplay=1&mute=1'
+            title='YouTube video player'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+          ></iframe>
         </div>
       </section>
       <section>
