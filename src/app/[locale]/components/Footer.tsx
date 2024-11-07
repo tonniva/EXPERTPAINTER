@@ -9,7 +9,7 @@ export const Footer = () => {
     <>
       {' '}
       <section className='bg-black py-20 text-white max-lg:py-10'>
-        <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7 px-8 py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
+        <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7  py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
           <div className='text-center'>
             <Image
               src='/sz.png'
@@ -24,7 +24,7 @@ export const Footer = () => {
             <div className='text-sm text-orange-200 max-lg:max-w-[500px]'>
               Call : 021 024 94072
             </div>
-            <div className='text-sm text-orange-200 max-lg:max-w-[500px]'>
+            <div className='email text-sm text-orange-200 max-lg:max-w-[500px] whitespace-nowrap'>
               Email : EXPERTPAINTERLTD@GMAIL.COM
             </div>
           </div>
@@ -35,14 +35,14 @@ export const Footer = () => {
               <button
                 className='btn text-center'
                 onClick={() => {
-                  // window.open(
-                  //   'https://www.facebook.com/profile.php?id=100062997834650',
-                  //   '_blank',
-                  //   'noopener,noreferrer'
-                  // )
+                  window.open(
+                    'https://www.facebook.com/expertpainterltd',
+                    '_blank',
+                    'noopener,noreferrer'
+                  )
                 }}
               >
-                <BsFacebook size={40} color='#3b5998' />
+                <BsFacebook size={40} color='#3b5998' className='hover:scale-125 cursor-pointer' />
               </button>
             </div>
           </div>

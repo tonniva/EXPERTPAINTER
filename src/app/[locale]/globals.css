@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'UTM Micra';
+  src: url('/fonts/UTM Micra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @layer base {
   :root {
     --primary: #333366;
@@ -168,6 +174,7 @@
     color: rgb(248, 28, 229);
   }
   body {
+    font-family: 'UTM Micra', sans-serif !important;
     @apply bg-background text-primary;
   }
 
@@ -187,10 +194,9 @@
 
   /* Logo */
   .navbar-logo img {
-    width: 59px;
+    width: 100px;
     height: auto;
   }
-  
 
   /* Navbar Links - Desktop View */
   .navbar-links {
@@ -242,10 +248,10 @@
 
   /* Mobile View */
   @media (max-width: 768px) {
-    .navbar-logo{
-      margin: auto; 
+    .navbar-logo {
+      margin: auto;
     }
-    .ivlogo{
+    .ivlogo {
       margin: auto;
     }
     .navbar-links {
@@ -261,7 +267,7 @@
       transform: translateX(-100%); /* เริ่มต้นซ่อนเมนูด้านซ้าย */
       transition: transform 0.5s ease;
     }
-    
+
     .navbar-links.active {
       transform: translateX(0); /* แสดงเมนู */
     }
@@ -285,21 +291,20 @@
   .ivlogo {
     filter: invert(1);
   }
-  .h-64{
+  .h-64 {
     height: 24rem !important;
   }
 
-  .img-smooth{
+  .img-smooth {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   }
-
 
   .map-container {
     position: relative;
     width: 100%;
     padding-top: 56.25%; /* อัตราส่วน 16:9 */
   }
-  
+
   .map-container iframe {
     position: absolute;
     top: 0;
@@ -308,5 +313,7 @@
     height: 100%;
     border: 0;
   }
- 
+  .email{
+    line-height: 33px !important;
+  }
 }

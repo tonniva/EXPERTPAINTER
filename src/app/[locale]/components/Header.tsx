@@ -146,44 +146,44 @@ export const Header: FC<Props> = ({ locale }) => {
               <Image
                 src='/LOGO_.png'
                 alt='logo'
-                width={59}
-                height={59}
-                className='ivlogo rounded-lg bg-white object-contain'
+                width={200}
+                height={200}
+                className='ivlogo rounded-lg bg-white object-contain -mt-8'
               />
             </a>
-            {/* <div className='text-white'>EXPERT PAINTER</div> */}
+            <div className='text-white'>EXPERT PAINTER</div>
           </div>
 
           <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-            <li>
+            <li className='hover:scale-110 cursor-pointer'>
               <Link lang={locale} href={`/`} onClick={handleCloseMenu}>
                 {t('Home')}
               </Link>
             </li>
 
-            <li>
+            <li className='hover:scale-110 cursor-pointer'>
               <Link lang={locale} href={`/portfolio`} onClick={handleCloseMenu}>
                 Portfolio
               </Link>
               {/* <a href='/portfolio'>Portfolio</a> */}
             </li>
-            <li>
+            <li className='hover:scale-110 cursor-pointer'>
               {' '}
               <Link lang={locale} href={`/contact`} onClick={handleCloseMenu}>
                 {t('Contact')}
               </Link>
             </li>
-            <li>
+            <li className='hover:scale-110 cursor-pointer'>
               <a
                 onClick={() => {
-                  // window.open(
-                  //   'https://www.facebook.com/profile.php?id=100062997834650',
-                  //   '_blank',
-                  //   'noopener,noreferrer'
-                  // )
+                  window.open(
+                    'https://www.facebook.com/expertpainterltd',
+                    '_blank',
+                    'noopener,noreferrer'
+                  )
                 }}
               >
-                <BsFacebook size={25} color='#3b5998' />
+                <BsFacebook size={25} color='#3b5998' className='hover:scale-125 cursor-pointer' />
               </a>
 
               {/* 

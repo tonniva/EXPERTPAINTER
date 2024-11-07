@@ -29,14 +29,14 @@ export default function BootstrapCarousel() {
               <button
                 className='btn'
                 onClick={() => {
-                //   window.open(
-                //     'https://www.facebook.com/profile.php?id=100062997834650',
-                //     '_blank',
-                //     'noopener,noreferrer'
-                //   )
+                  window.open(
+                    'https://www.facebook.com/expertpainterltd',
+                    '_blank',
+                    'noopener,noreferrer'
+                  )
                 }}
               >
-                <BsFacebook size={40} color='#3b5998' />
+                <BsFacebook size={40} color='#3b5998' className='hover:scale-125 cursor-pointer' />
               </button>
             </Carousel.Caption>
           </Carousel.Item>
