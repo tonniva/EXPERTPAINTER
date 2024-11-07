@@ -80,7 +80,7 @@ export default function RootLayout({
               showSpinner={false}
             />
             <Header locale={locale} />
-            <main className='pt-10'>{children}</main>
+            <main className='pt-5'>{children}</main>
             <Footer />
 
           </NextIntlClientProvider>

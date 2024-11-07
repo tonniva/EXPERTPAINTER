@@ -134,24 +134,24 @@ export const Header: FC<Props> = ({ locale }) => {
         </ul>
       </nav> */}
 
-      <nav className='navbar top-0  z-50 py-4 shadow-md'>
+      <nav className='navbar top-0  z-50 py-2 shadow-md'>
         <div className='container mx-auto flex items-center justify-between px-4'>
           <div className='burger-menu' onClick={toggleMenu}>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
           </div>
-          <div className='navbar-logo pl-3 pt-3'>
+          <div className='navbar-logo pl-3'>
             <a href='/'>
               <Image
-                src='/house_image_output.svg'
+                src='/LOGO_.png'
                 alt='logo'
                 width={59}
                 height={59}
                 className='ivlogo rounded-lg bg-white object-contain'
               />
             </a>
-            <div className='text-white'>EXPERT PAINTER</div>
+            {/* <div className='text-white'>EXPERT PAINTER</div> */}
           </div>
 
           <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
@@ -176,11 +176,11 @@ export const Header: FC<Props> = ({ locale }) => {
             <li>
               <a
                 onClick={() => {
-                  window.open(
-                    'https://www.facebook.com/profile.php?id=100062997834650',
-                    '_blank',
-                    'noopener,noreferrer'
-                  )
+                  // window.open(
+                  //   'https://www.facebook.com/profile.php?id=100062997834650',
+                  //   '_blank',
+                  //   'noopener,noreferrer'
+                  // )
                 }}
               >
                 <BsFacebook size={25} color='#3b5998' />

@@ -30,7 +30,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/1.mp4'
+            src='/videos/compo/1.mp4'
             autoPlay
             loop
             muted
@@ -52,7 +52,7 @@ const ParallaxSection: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className='flex flex-col items-center justify-center bg-white py-24'>
+      <section className='flex flex-col items-center justify-center bg-white py-40'>
         <h1 className='text-center text-5xl font-extrabold leading-tight'>
           COMMERCIAL RESIDENTIAL
         </h1>
@@ -67,7 +67,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/5.mp4'
+            src='/videos/compo/5.mp4'
             autoPlay
             loop
             muted
@@ -93,7 +93,7 @@ const ParallaxSection: React.FC = () => {
       {/* Section 2: Transparent Background with Parallax Effect */}
       <section
         ref={parallaxRef1}
-        className='flex flex-col items-center justify-center bg-opacity-50 bg-cover bg-fixed py-24'
+        className='flex flex-col items-center justify-center bg-opacity-50 bg-cover bg-fixed py-40'
         style={{
           backgroundImage:
             'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/nz.webp)',
@@ -114,7 +114,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/2.mp4'
+            src='/videos/compo/2.mp4'
             autoPlay
             loop
             muted
@@ -138,7 +138,7 @@ const ParallaxSection: React.FC = () => {
       </section>
 
       {/* Section 3: White Background */}
-      <section className='flex flex-col items-center justify-center bg-white py-24'>
+      <section className='flex flex-col items-center justify-center bg-white py-40'>
         <h1 className='text-center text-5xl font-extrabold leading-tight'>
           STOPPING PLASTERING
         </h1>
@@ -151,7 +151,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/9.mp4'
+            src='/videos/compo/9.mp4'
             autoPlay
             loop
             muted
@@ -177,7 +177,7 @@ const ParallaxSection: React.FC = () => {
       {/* Section 4: Transparent Background with Parallax Effect */}
       <section
         ref={parallaxRef2}
-        className='flex flex-col items-center justify-center bg-opacity-50 bg-cover bg-fixed py-24'
+        className='flex flex-col items-center justify-center bg-opacity-50 bg-cover bg-fixed py-40'
         style={{
           backgroundImage:
             'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/nz.webp)',
@@ -196,7 +196,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/7.mp4'
+            src='/videos/compo/7.mp4'
             autoPlay
             loop
             muted
@@ -220,7 +220,7 @@ const ParallaxSection: React.FC = () => {
       </section>
 
       {/* Section 5: White Background */}
-      <section className='flex flex-col items-center justify-center bg-white py-24'>
+      <section className='flex flex-col items-center justify-center bg-white py-40'>
         <h1 className='text-center text-5xl font-extrabold leading-tight'>
           ROOF SPRAYING PAINTING
         </h1>
@@ -234,7 +234,7 @@ const ParallaxSection: React.FC = () => {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/10.mp4'
+            src='/videos/compo/10.mp4'
             autoPlay
             loop
             muted

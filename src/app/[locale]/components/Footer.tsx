@@ -35,11 +35,11 @@ export const Footer = () => {
               <button
                 className='btn text-center'
                 onClick={() => {
-                  window.open(
-                    'https://www.facebook.com/profile.php?id=100062997834650',
-                    '_blank',
-                    'noopener,noreferrer'
-                  )
+                  // window.open(
+                  //   'https://www.facebook.com/profile.php?id=100062997834650',
+                  //   '_blank',
+                  //   'noopener,noreferrer'
+                  // )
                 }}
               >
                 <BsFacebook size={40} color='#3b5998' />

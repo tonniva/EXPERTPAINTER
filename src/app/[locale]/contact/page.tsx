@@ -22,7 +22,7 @@ export default function About() {
         <div className='relative h-screen w-full overflow-hidden'>
           <video
             className='absolute left-0 top-0 h-full w-full object-cover'
-            src='/videos/11.mp4' // ระบุเส้นทางไฟล์วิดีโอที่นี่
+            src='/videos/compo/11.mp4' // ระบุเส้นทางไฟล์วิดีโอที่นี่
             autoPlay
             loop
             muted

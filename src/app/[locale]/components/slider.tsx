@@ -31,10 +31,10 @@ export const Slider = () => {
 
   return (
     <>
-      <h1 className='pt-2 text-center text-5xl font-extrabold leading-tight'>
+      {/* <h1 className='pt-2 text-center text-5xl font-extrabold leading-tight'>
         Before-After
-      </h1>
-      <div className='relative w-full' onMouseUp={handleMouseUp}>
+      </h1> */}
+      {/* <div className='relative w-full' onMouseUp={handleMouseUp}>
         <div
           className='relative m-auto aspect-[70/45] w-full max-w-[700px] select-none overflow-hidden'
           onMouseMove={handleMove}
@@ -103,7 +103,7 @@ export const Slider = () => {
             <div className='absolute -left-1 top-[calc(50%-5px)] h-3 w-3 rounded-full bg-white' />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
