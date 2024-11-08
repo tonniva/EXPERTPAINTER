@@ -141,39 +141,43 @@ export const Header: FC<Props> = ({ locale }) => {
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
           </div>
-          <div className='navbar-logo pl-3 -mt-3'>
+          <div className='navbar-logo -mt-3 pl-3'>
             <a href='/'>
               <Image
                 src='/LOGO_.png'
                 alt='logo'
-                width={200}
-                height={200}
-                className='ivlogo rounded-lg bg-white object-contain -mt-8'
+                width={100}
+                height={100}
+                className='ivlogo -mt-8 rounded-lg bg-white object-contain'
               />
             </a>
-            <div className='text-white'>EXPERT PAINTER</div>
+            <div
+              className='text-sm/[8px] lg:text-xl text-white p-1'
+            >
+              EXPERT PAINTER
+            </div>
           </div>
 
           <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-            <li className='hover:scale-110 cursor-pointer'>
+            <li className='cursor-pointer hover:scale-110'>
               <Link lang={locale} href={`/`} onClick={handleCloseMenu}>
                 {t('Home')}
               </Link>
             </li>
 
-            <li className='hover:scale-110 cursor-pointer'>
+            <li className='cursor-pointer hover:scale-110'>
               <Link lang={locale} href={`/portfolio`} onClick={handleCloseMenu}>
                 Portfolio
               </Link>
               {/* <a href='/portfolio'>Portfolio</a> */}
             </li>
-            <li className='hover:scale-110 cursor-pointer'>
+            <li className='cursor-pointer hover:scale-110'>
               {' '}
               <Link lang={locale} href={`/contact`} onClick={handleCloseMenu}>
                 {t('Contact')}
               </Link>
             </li>
-            <li className='hover:scale-110 cursor-pointer'>
+            <li className='cursor-pointer hover:scale-110'>
               <a
                 onClick={() => {
                   window.open(
@@ -183,7 +187,11 @@ export const Header: FC<Props> = ({ locale }) => {
                   )
                 }}
               >
-                <BsFacebook size={25} color='#3b5998' className='hover:scale-125 cursor-pointer' />
+                <BsFacebook
+                  size={25}
+                  color='#3b5998'
+                  className='cursor-pointer hover:scale-125'
+                />
               </a>
 
               {/* 

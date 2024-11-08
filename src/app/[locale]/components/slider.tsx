@@ -31,7 +31,7 @@ export const Slider = () => {
 
   return (
     <>
-      {/* <h1 className='pt-2 text-center text-2xl font-extrabold leading-tight'>
+      {/* <h1 className='pt-2 text-center text-xl font-extrabold leading-tight'>
         Before-After
       </h1> */}
       {/* <div className='relative w-full' onMouseUp={handleMouseUp}>

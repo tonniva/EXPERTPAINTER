@@ -22,7 +22,7 @@ export default function About() {
 
   return (
     <div className='py-20 text-center text-2xl'>
-      <h1 className='p-4 text-center text-2xl font-extrabold leading-tight'>
+      <h1 className='p-4 text-center sm:px-20 text-sm/[12px] lg:text-xl font-extrabold leading-tight'>
         RENOVATION PAINTING
       </h1>
       <section className='px-4 py-2'>
@@ -128,7 +128,7 @@ export default function About() {
           className='rounded-lg   object-contain'
         />
       </section>
-      <h1 className='p-2 text-center text-2xl font-extrabold leading-tight'>
+      <h1 className='p-2 text-center sm:px-20 text-sm/[12px] lg:text-xl font-extrabold leading-tight'>
         BEFORE-AFTER
       </h1>
       <section>
