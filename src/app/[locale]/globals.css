@@ -199,8 +199,7 @@
   }
 
   /* Navbar Links - Desktop View */
-  .navbar-links {
-    z-index: -1;
+  .navbar-links { 
     display: flex;
     gap: 1.5rem;
     list-style: none;
