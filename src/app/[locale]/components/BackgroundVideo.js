@@ -13,7 +13,7 @@ const BackgroundVideo = () => {
         playsInline
       />
       <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
-        <h1 className="text-white text-5xl font-bold">Welcome to Our Website</h1>
+        <h1 className="text-white text-2xl font-bold">Welcome to Our Website</h1>
       </div>
     </div>
   );

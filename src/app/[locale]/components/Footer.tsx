@@ -18,13 +18,13 @@ export const Footer = () => {
               height={200}
               className='mx-auto rounded-lg  object-contain sm:mx-0'
             />
-          </div>
-          <div className='m-auto'>
+          </div> 
+          <div className='m-auto text-center lg:text-left'>
             <h2 className='mb-3 text-xl font-semibold'>EXPERT PAINTER</h2>
             <div className='text-sm text-orange-200 max-lg:max-w-[500px]'>
               Call : 021 024 94072
             </div>
-            <div className='email text-sm text-orange-200 max-lg:max-w-[500px] whitespace-nowrap'>
+            <div className='email text-sm text-orange-200 max-lg:max-w-[500px] sm:whitespace-nowrap'>
               Email : EXPERTPAINTERLTD@GMAIL.COM
             </div>
           </div>

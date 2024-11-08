@@ -41,7 +41,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -67,7 +67,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -93,7 +93,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -119,7 +119,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -148,7 +148,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -175,7 +175,7 @@ export default function DashboardPage() {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>

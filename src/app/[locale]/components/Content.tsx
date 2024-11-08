@@ -45,7 +45,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -53,10 +53,10 @@ const ParallaxSection: React.FC = () => {
         </div>
       </section>
       <section className='flex flex-col items-center justify-center bg-white py-40'>
-        <h1 className='text-center text-5xl font-extrabold leading-tight'>
+        <h1 className='text-center text-2xl font-extrabold leading-tight'>
           COMMERCIAL RESIDENTIAL
         </h1>
-        <p className='my-6 px-20 text-center text-2xl text-text-secondary'>
+        <p className='my-6 sm:px-20 p-2 text-center text-2xl text-text-secondary w-full'>
           Bring new life to your building with high-quality painting services
           from a professional team dedicated to every detail from start to
           finish.
@@ -82,7 +82,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -100,10 +100,10 @@ const ParallaxSection: React.FC = () => {
           backgroundAttachment: 'fixed'
         }}
       >
-        <h1 className='text-center text-5xl font-extrabold leading-tight text-white'>
+        <h1 className='text-center text-2xl font-extrabold leading-tight text-white'>
           RENOVATION PAINTING
         </h1>
-        <p className='my-6 px-20 text-center text-2xl text-white'>
+        <p className='my-6 px-20 text-center text-2xl text-white w-full'>
           Elevate the beauty of your home or building with our renovation
           painting service, offering a fresh, modern look with long-lasting
           results.
@@ -129,7 +129,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -139,10 +139,10 @@ const ParallaxSection: React.FC = () => {
 
       {/* Section 3: White Background */}
       <section className='flex flex-col items-center justify-center bg-white py-40'>
-        <h1 className='text-center text-5xl font-extrabold leading-tight'>
+        <h1 className='text-center text-2xl font-extrabold leading-tight'>
           STOPPING PLASTERING
         </h1>
-        <p className='my-6 px-20 text-center text-2xl text-text-secondary'>
+        <p className='my-6 sm:px-20 p-2 text-center text-2xl text-text-secondary w-full'>
           Achieve a flawless, elegant finish with high-quality plastering,
           creating the perfect surface for durable and beautiful paint.
         </p>
@@ -166,7 +166,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -184,10 +184,10 @@ const ParallaxSection: React.FC = () => {
           backgroundAttachment: 'fixed'
         }}
       >
-        <h1 className='text-center text-5xl font-extrabold leading-tight text-white'>
+        <h1 className='text-center text-2xl font-extrabold leading-tight text-white'>
           WATER BLASTING
         </h1>
-        <p className='my-6 px-20 text-center text-2xl text-white'>
+        <p className='my-6 px-20 text-center text-2xl text-white w-full'>
           Refresh the appearance of your exterior surfaces with high-pressure
           water blasting, making your home or building look fresh and clean.
         </p>
@@ -211,7 +211,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
@@ -221,10 +221,10 @@ const ParallaxSection: React.FC = () => {
 
       {/* Section 5: White Background */}
       <section className='flex flex-col items-center justify-center bg-white py-40'>
-        <h1 className='text-center text-5xl font-extrabold leading-tight'>
+        <h1 className='text-center text-2xl font-extrabold leading-tight'>
           ROOF SPRAYING PAINTING
         </h1>
-        <p className='my-6 px-20 text-center text-2xl text-text-secondary'>
+        <p className='my-6 sm:px-20 p-2 text-center text-2xl text-text-secondary w-full'>
           Protect and enhance the durability of your roof with our roof spraying
           service, ensuring it looks fresh and withstands all weather
           conditions.
@@ -249,7 +249,7 @@ const ParallaxSection: React.FC = () => {
                 height={500}
                 className='max-w-xs rounded-lg object-contain opacity-10 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl'
               />
-              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-5xl lg:text-xl opacity-10'>
+              <h1 className='text-3xl font-bold text-white  sm:text-4xl md:text-2xl lg:text-xl opacity-10'>
                 EXPERT PAINTER
               </h1>
             </div>
