@@ -22,23 +22,14 @@ export default function About() {
 
   return (
     <div className='py-20 text-center text-2xl'>
-      <h1 className='p-4 text-center sm:px-20 text-sm/[12px] lg:text-xl font-extrabold leading-tight'>
+      <h1 className='p-4 pt-20 text-center text-sm/[12px] font-extrabold leading-tight sm:px-20 lg:text-xl'>
         RENOVATION PAINTING
       </h1>
-      <section className='px-4 py-2'>
+      <section className='m-auto  px-4 py-2'>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
-          <div className='flex justify-center'>
-            {/* <iframe
-              width='100%'
-              height='500'
-              src='https://www.youtube.com/embed/AEhVtgUG7no?autoplay=1&mute=1'
-              title='YouTube video player'
-              frameBorder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowFullScreen
-            ></iframe> */}
+          <div className='flex  justify-center lg:justify-end'>
             <video
-              className='h-screen w-full rounded-lg object-cover'
+              className='h-[50vh] w-[80%] max-w-[600px] rounded-lg object-cover'
               src='/videos/e0fa1ea7-2683-4dba-ade8-ec82409c3976.mp4'
               autoPlay
               loop
@@ -46,18 +37,9 @@ export default function About() {
               playsInline
             />
           </div>
-          <div className='flex justify-center'>
-            {/* <iframe
-              width='100%'
-              height='500'
-              src='https://www.youtube.com/embed/D6KJ7-0FmyM?autoplay=1&mute=1'
-              title='YouTube video player'
-              frameBorder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowFullScreen
-            ></iframe> */}
+          <div className='flex   justify-center lg:justify-start'>
             <video
-              className='h-screen w-full rounded-lg object-cover'
+              className='h-[50vh] w-[80%] max-w-[600px] rounded-lg object-cover'
               src='/videos/ffef1808-7145-4b30-8705-e6831f6e3fbd.mp4'
               autoPlay
               loop
@@ -65,9 +47,9 @@ export default function About() {
               playsInline
             />
           </div>
-          <div className='flex justify-center'>
+          <div className='flex  justify-center  lg:justify-end'>
             <video
-              className='h-screen w-full rounded-lg object-cover'
+              className='h-[50vh] w-[80%] max-w-[600px] rounded-lg object-cover'
               src='/videos/IMG_8412.MOV'
               autoPlay
               loop
@@ -75,9 +57,9 @@ export default function About() {
               playsInline
             />
           </div>
-          <div className='flex justify-center'>
+          <div className='flex  justify-center  lg:justify-start'>
             <video
-              className='h-screen w-full rounded-lg object-cover'
+              className='h-[50vh] w-[80%] max-w-[600px] rounded-lg object-cover'
               src='/videos/7e7ba102-2652-4f59-8026-ca8ab35b939c.mp4'
               autoPlay
               loop
@@ -85,37 +67,8 @@ export default function About() {
               playsInline
             />
           </div>
-
-          {/* <video
-            className='h-screen w-full rounded-lg object-cover'
-            src='/videos/e0fa1ea7-2683-4dba-ade8-ec82409c3976.mp4'
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-          <video
-            className='h-screen w-full rounded-lg object-cover'
-            src='/videos/ffef1808-7145-4b30-8705-e6831f6e3fbd.mp4'
-            autoPlay
-            loop
-            muted
-            playsInline
-          /> */}
         </div>
       </section>
-      {/* <section>
-        <div className='flex justify-center'>
-          <video
-            className='h-screen w-full rounded-lg object-cover'
-            src='/videos/IMG_8412.MOV'
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-        </div>
-      </section> */}
       <section>
         <Slider></Slider>
       </section>
@@ -128,11 +81,11 @@ export default function About() {
           className='rounded-lg   object-contain'
         />
       </section>
-      <h1 className='p-2 text-center sm:px-20 text-sm/[12px] lg:text-xl font-extrabold leading-tight'>
+      <h1 className='p-2 text-center text-sm/[12px] font-extrabold leading-tight sm:px-20 lg:text-xl'>
         BEFORE-AFTER
       </h1>
       <section>
-        <div className='grid grid-cols-2 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+        <div className='m-auto grid max-w-7xl grid-cols-2 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4'>
           {images.map((src, index) => (
             <div
               key={index}

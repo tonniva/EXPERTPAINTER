@@ -210,13 +210,13 @@
 
   .navbar-links li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #020202;
     font-weight: 500;
     transition: color 0.3s;
   }
 
   .navbar-links li a:hover {
-    color: #cd9c0b;
+    color: #c02a2a;
   }
 
   /* Burger Menu Icon */
@@ -229,7 +229,7 @@
   .burger-menu .line {
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 2px 0;
     transition: all 0.3s ease;
   }

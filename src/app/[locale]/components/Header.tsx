@@ -59,7 +59,7 @@ export const Header: FC<Props> = ({ locale }) => {
   return (
     <div
       className={`${
-        isSticky ? 'sticky top-0 bg-opacity-90' : 'fixed top-0 bg-opacity-100'
+        isSticky ? ' top-0 bg-opacity-90' : 'fixed top-0 bg-opacity-100'
       } z-50 w-full transform transition-all duration-500 ease-in-out ${
         isSticky ? 'translate-y-0' : '-translate-y-2'
       }  ${ishidefixed ? 'opacity-0' : ''} `}
@@ -134,50 +134,81 @@ export const Header: FC<Props> = ({ locale }) => {
         </ul>
       </nav> */}
 
-      <nav className='navbar top-0  z-50 py-2 shadow-md'>
-        <div className='container mx-auto flex items-center justify-between px-4'>
+      <nav className='navbar top-0  z-50  bg-white shadow-md'>
+        <style jsx>{`
+          .header-custom {
+            justify-content: start !important;
+            width: 100%;
+          }
+        `}</style>
+        <div className='header-custom flex items-center px-2'>
           <div className='burger-menu' onClick={toggleMenu}>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
             <div className={`line ${isOpen ? 'open' : ''}`}></div>
           </div>
-          <div className='navbar-logo -mt-3 pl-3'>
+          <div className='navbar-logo mt-3 pl-3'>
             <a href='/'>
               <Image
-                src='/LOGO_.png'
+                src='/sz.png'
                 alt='logo'
                 width={100}
                 height={100}
-                className='ivlogo -mt-8 rounded-lg bg-white object-contain'
+                className=' m-auto rounded-lg bg-white object-contain'
               />
             </a>
-            <div
-              className='text-sm/[8px] lg:text-xl text-white p-1'
-            >
+            <div className='p-1 text-sm/[8px] text-white lg:text-xl'>
               EXPERT PAINTER
             </div>
           </div>
 
-          <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-            <li className='cursor-pointer hover:scale-110'>
+          <ul className={`navbar-links bg-white ${isOpen ? 'active' : ''}`}>
+            <li className='cursor-pointer hover:scale-110 hover:text-[#c02a2a]'>
               <Link lang={locale} href={`/`} onClick={handleCloseMenu}>
-                {t('Home')}
+                <span className='text-gray-500 hover:text-[#c02a2a]'>
+                  {' '}
+                  {t('Home')}
+                </span>
               </Link>
             </li>
 
-            <li className='cursor-pointer hover:scale-110'>
-              <Link lang={locale} href={`/portfolio`} onClick={handleCloseMenu}>
-                Portfolio
+            <li className='cursor-pointer hover:scale-110 hover:text-[#c02a2a]'>
+              <Link
+                lang={locale}
+                href={`/portfolio`}
+                onClick={handleCloseMenu} 
+              >
+                <span   className='text-gray-500 hover:text-[#c02a2a]'>  services</span>
+              
               </Link>
               {/* <a href='/portfolio'>Portfolio</a> */}
             </li>
-            <li className='cursor-pointer hover:scale-110'>
+            <li className='cursor-pointer hover:scale-110 hover:text-[#c02a2a]'>
+              <Link
+                lang={locale}
+                href={`/gallery`}
+                onClick={handleCloseMenu}
+                className='text-gray-500 hover:text-[#c02a2a]'
+              >
+                 <span   className='text-gray-500 hover:text-[#c02a2a]'>  gallery</span>
+                 
+              </Link>
+              {/* <a href='/portfolio'>Portfolio</a> */}
+            </li>
+            <li className='cursor-pointer hover:scale-110 hover:text-[#c02a2a]'>
               {' '}
-              <Link lang={locale} href={`/contact`} onClick={handleCloseMenu}>
-                {t('Contact')}
+              <Link
+                lang={locale}
+                href={`/contact`}
+                onClick={handleCloseMenu}
+                className='text-gray-500 hover:text-[#c02a2a]'
+              >
+            
+                <span   className='text-gray-500 hover:text-[#c02a2a]'>      {t('Contact')}</span>
+                 
               </Link>
             </li>
-            <li className='cursor-pointer hover:scale-110'>
+            <li className='cursor-pointer hover:scale-110 hover:text-[#c02a2a] '>
               <a
                 onClick={() => {
                   window.open(

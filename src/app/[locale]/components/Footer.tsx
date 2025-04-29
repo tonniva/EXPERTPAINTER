@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <>
       {' '}
-      <section className='bg-black py-20 text-white max-lg:py-10'>
-        <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7  py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
+      <section className='bg-white py-20 text-black max-lg:py-10'>
+        <div className='mx-auto grid  grid-cols-3 gap-7  py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
           <div className='text-center'>
             <Image
               src='/sz.png'
@@ -20,16 +20,16 @@ export const Footer = () => {
             />
           </div> 
           <div className='m-auto text-center lg:text-left'>
-            <h2 className='mb-3 text-xl font-semibold'>EXPERT PAINTER</h2>
-            <div className='text-sm text-orange-200 max-lg:max-w-[500px]'>
+            <h2 className='mb-3 text-xl font-semibold text-gray-500 hover:text-[#c02a2a]'>EXPERT PAINTER</h2>
+            <div className='text-sm   max-lg:max-w-[500px] text-gray-500 hover:text-[#c02a2a]'>
               Call : 021 024 94072
             </div>
-            <div className='email text-sm text-orange-200 max-lg:max-w-[500px] sm:whitespace-nowrap'>
+            <div className='email text-sm  max-lg:max-w-[500px] sm:whitespace-nowrap text-gray-500 hover:text-[#c02a2a]'>
               Email : EXPERTPAINTERLTD@GMAIL.COM
             </div>
           </div>
           <div className='m-auto'>
-            <h2 className='mb-3 text-xl font-semibold'>Contact</h2>
+            <h2 className='mb-3 text-xl font-semibold text-gray-500 hover:text-[#c02a2a]'>Contact</h2>
 
             <div className='mx-auto sm:mx-0 text-center'>
               <button

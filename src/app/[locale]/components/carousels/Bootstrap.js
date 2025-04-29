@@ -20,9 +20,18 @@ export default function BootstrapCarousel() {
           <Carousel.Item
             key={item.id}
             interval={4000}
-            className='w-full overflow-hidden rounded-lg bg-gray-200 size-car'
+            className='w-full overflow-hidden rounded-lg bg-white size-car'
           >
-            <img src={item.imageUrl} alt='slides' className='img-smooth' />
+                <img
+              src={item.imageUrl}
+              alt='slides'
+              className='img-smooth mx-auto  m-auto max-w-5xl'
+              style={{
+                maxWidth: '750px', // กำหนดความกว้างสูงสุด
+                maxHeight: '750px', // กำหนดความสูงสูงสุด
+                objectFit: 'cover' // ปรับให้รูปภาพไม่บิดเบี้ยว
+              }}
+            />
             <Carousel.Caption>
               <h3>{item.title}</h3>
               <p className='text-2xl'>{item.body}</p>
