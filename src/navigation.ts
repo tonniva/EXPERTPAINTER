@@ -10,6 +10,7 @@ export const localePrefix = 'always'
 export const pathnames = {
   '/': '/',
   '/portfolio':'/portfolio',
+  '/gallery':'/gallery',
   '/about': '/about',
   '/contact':'/contact'
 
